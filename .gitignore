@@ -1,0 +1,27 @@
+# ==========================================
+# Code::Blocks Specific example 
+# ==========================================
+# Contains the window layout and open tabs (changes constantly)
+*.layout
+
+# Tracks internal dependencies for building the project
+*.depend
+
+# Output directories where Code::Blocks places compiled binaries
+bin/
+obj/
+
+# ==========================================
+# General C Compiled Binaries & Objects
+# ==========================================
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# ==========================================
+# OS Garbage
+# ==========================================
+.DS_Store
+Thumbs.db
